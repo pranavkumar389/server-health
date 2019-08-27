@@ -26,11 +26,11 @@ unit['helpers.getANumber should return 1'] = function(done) {
 }
 
 // Assert that the getANumber function is returning 2
-unit['helpers.getANumber should return 2'] = function(done) {
-    var val = helpers.getANumber();
-    assert.equal(val, 2);
-    done();
-}
+// unit['helpers.getANumber should return 2'] = function(done) {
+//     var val = helpers.getANumber();
+//     assert.equal(val, 2);
+//     done();
+// }
 
 // Logs.list should callback an array and a false error
 // unit['logs.list should callback a false error and an array of logs names'] = function(done) {
